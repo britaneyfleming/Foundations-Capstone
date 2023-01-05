@@ -45,6 +45,7 @@ display:flex;
 align-items:center;
 justify-content: center;
 gap:15px;
+width:fit-content;
 }
 .controllers-form-button{
   padding:8px;
@@ -78,12 +79,18 @@ gap:15px;
   
   td, th {
     border: 1px solid rgba(137, 43, 226, 0.2);
-    text-align: left;
+
     padding: 8px;
   }
   
   tr:nth-child(even) {
     background-color: rgba(137, 43, 226, 0.2);
+  }
+  td{
+   text-align:center;
+    width: 100px;
+    height: 115px;
+
   }
 
   footer{
@@ -111,3 +118,4 @@ footer ul li{
 footer ul li:hover{
   color:rgb(255, 255, 255);
 }
+
